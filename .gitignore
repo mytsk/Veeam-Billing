@@ -1,0 +1,16 @@
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### overrides ###
+log.txt
+/Logs/*.log
+/settings/*.ps1
+!/settings/*sample.ps1
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
